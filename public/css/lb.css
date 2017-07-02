@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	background-color: #fff5e6;
+}
+
+#wrapper {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	height: 800px;
+	width: 1300px;
+	background-color: #f0e1d2;
+}
+
+#fig {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 800px;
+	width: 700px;
+}
+
+#controls {
+	position: absolute;
+	top: 0;
+	left: 700px;
+	height: 800px;
+	width: 400px;
+}
+
+#datWrapper {
+	position: absolute;
+	top: 5px;
+	left: 8.4em; /* Was 10em before addition of alpha */
+}
+
+#constants {
+	position: absolute;
+	top: 0;
+	left: 1100px;
+	height: 800px;
+	width: 200px;
+	padding-left: 15px;
+	background-color: #e6d7c8;
+}
+
+#Energy {
+	position: absolute;
+	top: 150px;
+	left: 75px;
+	height: 600px;
+	width: 13px;
+	background-color: #4a4944;
+}
+
+#Current {
+	position: absolute;
+	top: 150px;
+	left: 155px;
+	height: 600px;
+	width: 13px;
+	background-color: #4a4944;
+}
+
+#WD {
+	position: absolute;
+	top: 150px;
+	left: 235px;
+	height: 600px;
+	width: 13px;
+	background-color: #4a4944;
+}
+
+#Aperture {
+	position: absolute;
+	top: 150px;
+	left: 315px;
+	height: 600px;
+	width: 13px;
+	background-color: #4a4944;
+}
+
+#EnergyTop {
+	position: absolute;
+	top: 108px;
+	left: 70px;
+}
+
+#CurrentTop {
+	position: absolute;
+	top: 108px;
+	left: 150px;
+}
+
+#WDTop {
+	position: absolute;
+	top: 108px;
+	left: 230px;
+}
+
+#ApertureTop {
+	position: absolute;
+	top: 108px;
+	left: 310px;
+}
+
+#EnergyBottom {
+	position: absolute;
+	top: 750px;
+	left: 70px;
+}
+
+#CurrentBottom {
+	position: absolute;
+	top: 750px;
+	left: 150px;
+}
+
+#WDBottom {
+	position: absolute;
+	top: 750px;
+	left: 230px;
+}
+
+#ApertureBottom {
+	position: absolute;
+	top: 750px;
+	left: 310px;
+}
+
+#alphaDiv {
+	position: absolute;
+	top: 3.5em;
+	left: 16.4em;
+}
